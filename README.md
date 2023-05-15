@@ -114,10 +114,10 @@ Request Body: {
 
 ### Controller-Service-Entity Architecture:
 
-The application follows the Controller-Service-Entity (CSE) architecture pattern.
+The application follows the Controller-Service-Repository architecture pattern.
 Controllers handle incoming requests, validate input, and delegate business logic to the service layer.
 Services contain the business logic and perform operations on the entities.
-Entities represent the domain objects and are persisted in the relational database.
+The Repository layer, at the bottom of this picture, is responsible for storing and retrieving some set of data.
 
 ### Relational Database:
 
