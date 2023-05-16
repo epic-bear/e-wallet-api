@@ -56,7 +56,7 @@ Request Body: {
 
 #### GET /user/{userId}
 
-Description: Creates a user.
+Description: Returns a user by id.
 \
 Request Body: { }
 
